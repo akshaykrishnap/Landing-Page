@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <!-- font cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header class="head">
+    <nav class="navbar ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-bars fa-2x" style="color: #74C0FC;"></i>
+           <span class="fs-3 ms-3 text-info">Dashboard</span> 
+          </a>\
+          <div>
+            <button class="btn btn-outline-danger"><i class="fa-solid fa-power-off" style="color: #e8e8e8;"></i> Log out</button>
+          </div>
+        </div>
+      </nav>
+  </header> 
+  <div>
+    <h1 class="text-center mt-4">Welcome <span id="username" class="text-info"> User</span></h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates eveniet reiciendis sapiente aperiam excepturi laudantium dolorum architecto asperiores odit similique. Soluta ad voluptatibus quam? Libero assumenda vitae magnam rerum nam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus sit porro illo facere eum accusantium natus nesciunt dicta illum animi eius voluptatem dolorum sint voluptatibus veritatis reiciendis, enim asperiores? Quisquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolorem error dicta, cum consequatur iusto quis suscipit dolores tempora a voluptatibus amet natus quaerat culpa facere quibusdam vel eum sint? lo 
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam culpa veniam provident magni eos incidunt assumenda iure sunt iste, mollitia explicabo velit. Iste rerum accusantium assumenda natus voluptatem tempora. Quia.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium aperiam, sint placeat recusandae ad quam quasi perspiciatis voluptatem veniam sequi voluptas consequuntur ipsam dolorum asperiores vel! Quaerat voluptates explicabo modi?
+      
+    </p>
+  </div> 
+</body>
+<script >
+  let user = localStorage.getItem("user")
+  console.log(user);
+  username.innerHTML =user
+</script>
+</html>

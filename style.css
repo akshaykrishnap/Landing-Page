@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100;
+}
+.head{
+    width: 100%;
+    height: 550px;
+    background-image:url(https://wallpapers.com/images/hd/abstract-background-6m6cjbifu3zpfv84.jpg);
+    background-size:cover;
+}
